@@ -1,4 +1,4 @@
-# JTS Simple Python Simulator VR
+# Aircraft Takeoff Performance Model
 
 **Project date: 22 March 2026. Updated: 28 May 2026.**
 
@@ -6,11 +6,11 @@
 
 **[https://clearedtoapproach.blogspot.com/2026/03/aircraft-takeoff-speed-calculation-python.html](https://clearedtoapproach.blogspot.com/2026/03/aircraft-takeoff-speed-calculation-python.html)**
 
-This interactive Python program estimates aircraft takeoff performance. Despite “VR” in the filename, it does not implement virtual reality; it models an aircraft’s ground roll and plots the results.
+A Python physics model of an aircraft’s takeoff ground roll. Here, **V_R** means rotation speed: the speed at which the aircraft is modeled as rotating for liftoff. It does not refer to virtual reality.
 
 ## What it calculates
 
-Choose a built-in aircraft profile or enter aircraft parameters, then provide wind, altitude, and runway length. The program estimates stall and rotation speed, evaluates available flap settings, simulates acceleration and ground distance, and reports the shortest computed takeoff distance. Matplotlib plots velocity and distance over time.
+Choose a built-in aircraft profile or enter aircraft parameters, including mass, lift coefficient, and drag coefficient. Provide wind, altitude, and runway length. The program estimates stall speed and **V_R**, evaluates the available flap settings, simulates acceleration and ground distance, and recommends the flap setting with the shortest computed takeoff distance. Matplotlib plots velocity and distance over time.
 
 ## Technologies and setup
 
