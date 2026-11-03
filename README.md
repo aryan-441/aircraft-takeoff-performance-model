@@ -1,4 +1,4 @@
-# JTS Simple Python Simulator VR
+# Aircraft Takeoff Performance Model
 
 **Project date: 22 March 2026. Updated: 28 May 2026.**
 
